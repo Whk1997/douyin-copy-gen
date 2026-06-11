@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 话术星 · AI直播话术生成器
 
-## Getting Started
+> AI-powered live streaming script generator for Chinese e-commerce sellers
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 [https://douyin-copy-gen.vercel.app](https://douyin-copy-gen.vercel.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## What it does
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Instantly generates professional live streaming scripts for agricultural
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+and e-commerce sellers on Douyin — covering 4 scenarios:
 
-## Learn More
+opening hooks, sales pitches, flash sales, and closing lines.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend**: Next.js 14 (App Router) + Tailwind CSS
+- **AI**: Claude API (claude-sonnet-4)
+- **Deployment**: Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Features
 
-## Deploy on Vercel
+- 4 live streaming scenarios with distinct AI prompt strategies
+- Multiple script variations per generation (10+ lines)
+- One-click copy for each script
+- Daily usage limit via localStorage
+- Mobile responsive
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
