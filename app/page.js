@@ -143,7 +143,44 @@ export default function Home() {
         <p className="mt-0.5 text-sm text-gray-500">AI直播话术生成器</p>
       </header>
 
-      <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8">
+      <section className="border-b border-indigo-100/60 bg-gradient-to-b from-indigo-50 to-purple-50 px-4 pt-11 pb-4">
+        <div className="mx-auto max-w-[800px] text-center">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            30秒生成专业直播话术
+          </h2>
+          <p className="mt-4 text-base leading-relaxed text-gray-600 sm:text-lg">
+            AI 自动生成开播预热、促单、秒杀、收单话术，
+            <br className="hidden sm:inline" />
+            告别不知道说什么的尴尬
+          </p>
+
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm text-gray-700 sm:text-base">
+            <span className="flex items-center gap-1.5">
+              <span aria-hidden="true">✨</span>
+              4种直播场景
+            </span>
+            <span className="hidden text-gray-300 sm:inline" aria-hidden="true">
+              |
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span aria-hidden="true">📋</span>
+              一键复制
+            </span>
+            <span className="hidden text-gray-300 sm:inline" aria-hidden="true">
+              |
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span aria-hidden="true">⚡</span>
+              秒级生成
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <div
+        id="tool"
+        className="mx-auto w-full max-w-6xl flex-1 px-4 pt-4 pb-8"
+      >
         <div className="grid grid-cols-1 items-start gap-6 lg:grid-cols-2">
           {/* 左侧：输入表单 */}
           <section className="sticky top-8 self-start rounded-xl bg-white p-6 shadow-md">
@@ -283,7 +320,7 @@ export default function Home() {
             )}
           </section>
         </div>
-      </main>
+      </div>
     </div>
   );
 }
